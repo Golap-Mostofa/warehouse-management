@@ -1,9 +1,10 @@
 import React from 'react';
-import { BeakerIcon } from '@heroicons/react/solid'
-import banner3 from '../../../image/banner3.jpg'
+import banner11 from '../../../image/banner11.jpg'
 import banner1 from '../../../image/banner1.jfif'
 import banner from '../../../image/banner.jfif'
 import nanner4 from '../../../image/banner4.png'
+import Home from '../../Main/Home/Home';
+
 
 const Banner = () => {
     return (
@@ -20,7 +21,7 @@ const Banner = () => {
                             Buy Now</button>
                     </div>
                     <div className='mt-3 md-0'>
-                        <img className='w-full sm:w-full' src={banner3} alt="" />
+                        <img className='w-full sm:w-full rounded-md hover:shadow-md p-1 ' src={banner11} alt="" />
                     </div>
                 </div>
 
@@ -60,6 +61,7 @@ const Banner = () => {
                 </div>
 
             </div>
+            <Home></Home>
         </div>
     );
 };

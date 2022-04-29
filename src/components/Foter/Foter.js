@@ -10,7 +10,7 @@ const Foter = () => {
                     <a>she all</a>
                 </div>
                 <div>
-                    <h4>Lorem, ipsum dolor.</h4>
+                    <h4 >Lorem, ipsum dolor.</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, expedita!</p>
                     <a>she all</a>
                 </div>
