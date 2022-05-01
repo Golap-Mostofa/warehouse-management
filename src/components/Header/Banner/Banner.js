@@ -14,9 +14,11 @@ const Banner = () => {
                     <div className='space-y-5 w-full'>
                         <h2 className='text-4xl md:text-5xl uppercase font-bold my-6'>be the scil    shorce
                             <br />
+                           
                             <span className='text-yellow-400 '>of interseptor</span></h2>
                         <p className='text-gray-900 font-serif '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, beatae!</p>
-                        <button className='uppercase bg-lime-600 py-4 px-7 font-semibold text-white rounded'>
+                        <br />
+                        <button className='uppercase bg-lime-600 py-4 px-7 font-semibold text-white rounded mt-4'>
 
                             Buy Now</button>
                     </div>
