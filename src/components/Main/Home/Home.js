@@ -11,8 +11,9 @@ const Home = () => {
         <div className='md:grid grid-cols-3 container mx-auto gap-12 '>
             
             {
-            products.map(pd=><Product
-            pd={pd}
+            products.map(product=><Product
+            product={product}
+            key={product._id}
             ></Product>)
             }
         </div>

@@ -7,6 +7,8 @@ import Home from './components/Main/Home/Home';
 import { Route, Routes } from 'react-router-dom';
 import Login from './components/LoginFrom/Login';
 import SignUp from './components/LoginFrom/SignUp';
+import RequireAuth from './components/LoginFrom/RequireAuth';
+import ProductDetail from './components/ProductDetail/ProductDetail';
 
 
 function App() {
@@ -15,12 +17,17 @@ function App() {
       <Navbar></Navbar>
 
       <Routes>
-        <Route path='/' element={<Banner></Banner>}></Route>
+        <Route path='/' element={
+          <Banner></Banner>
+        }></Route>
+        <Route path='/product/:productId' element={<RequireAuth>
+          <ProductDetail></ProductDetail>
+        </RequireAuth>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
       </Routes>
 
-    {/* <Foter></Foter> */}
+      {/* <Foter></Foter> */}
     </div>
   );
 }
