@@ -1,17 +1,35 @@
 [
-    {"name": "pro_38a", "guantity": 5, "discription":"Spades Spades Computer Clinic Computer Clinic" ,"_id":1, "img": "https://i.ibb.co/kywmzzQ/ales-nesetril-Im7l-Zjxe-Lhg-unsplash-1.jpg"},
+    {"name": "pro_38a", 
+        "guantity": 5,
+        "discription":"laptops and accessories. We deliver to your doorstep anywhere in Nigeria. Our prices start from N40,000." , 
+        "img": "https://i.ibb.co/kywmzzQ/ales-nesetril-Im7l-Zjxe-Lhg-unsplash-1.jpg"},
 
-    {"name": "i pro_38a", "guantity": 5, "discription":"Spades Spades Computer Clinic Computer Clinic" ,"_id":3, "img": "https://i.ibb.co/PDTpLHB/erick-cerritos-i5-UV2-Hp-ITYA-unsplash-1.jpg"},
+    {"name": "i pro_38a", 
+        "guantity": 5, 
+        "discription":"laptops and accessories. We deliver to your doorstep anywhere in Nigeria. Our prices start from N40,000." , 
+        "img": "https://i.ibb.co/PDTpLHB/erick-cerritos-i5-UV2-Hp-ITYA-unsplash-1.jpg"},
 
-    {"name": "i pro38a", "guantity": 5, "discription":"Spades Spades Computer Clinic Computer Clinic" ,"_id":4,"img": "https://i.ibb.co/M8kdXrg/goran-ivos-iacpo-Kgp-BAM-unsplash-1.jpg"},
+    {"name": "i pro38a", 
+        "guantity": 5, 
+        "discription":"laptops and accessories. We deliver to your doorstep anywhere in Nigeria. Our prices start from N40,000." ,
+        "img": "https://i.ibb.co/M8kdXrg/goran-ivos-iacpo-Kgp-BAM-unsplash-1.jpg"},
 
    
 
-    {"name": "i pro_38a", "guantity": 5, "discription":"Spades Spades Computer Clinic Computer Clinic" ,"_id":6,"img":"https://i.ibb.co/k0NWcqg/wesson-wang-y0-v-Fx-OHayg-unsplash-1.jpg"},
+    {"name": "i pro_38a", 
+        "guantity": 5, 
+        "discription":"laptops and accessories. We deliver to your doorstep anywhere in Nigeria. Our prices start from N40,000." ,
+        "img":"https://i.ibb.co/k0NWcqg/wesson-wang-y0-v-Fx-OHayg-unsplash-1.jpg"},
 
-    {"name": "i pro_38", "guantity": 5, "discription":"Spades Computer Spades Computer Clinic Clinic" ,"_id":6,"img": "https://i.ibb.co/p3qQt69/xps-pduut-Gb-L2-M-unsplash-1.jpg"},
+    {"name": "i pro_38", 
+        "guantity": 5, 
+        "discription":"laptops and accessories. We deliver to your doorstep anywhere in Nigeria. Our prices start from N40,000." ,
+        "img": "https://i.ibb.co/p3qQt69/xps-pduut-Gb-L2-M-unsplash-1.jpg"},
 
-    {"name": "i pro_8a", "guantity": 5, "discription":"Spades Spades Computer Clinic Computer Clinic" ,"_id":7,"img": "https://i.ibb.co/MGdZ5RF/xps-y-Nv-Vn-Pcur-D8-unsplash-1.jpg"}
+    {"name": "i pro_8a", 
+        "guantity": 5, 
+        "discription":"laptops and accessories. We deliver to your doorstep anywhere in Nigeria. Our prices start from N40,000." ,
+        "img": "https://i.ibb.co/MGdZ5RF/xps-y-Nv-Vn-Pcur-D8-unsplash-1.jpg"}
 ]
 
 
