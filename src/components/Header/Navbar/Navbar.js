@@ -19,6 +19,13 @@ const Navbar = () => {
                     <Link className='ml-4 text-indigo-700 font-semibold' to={'/'}>Home</Link>
                     <Link className='ml-4 text-indigo-700 font-semibold' to={'/Orders'}>Orders</Link>
                     <Link className='ml-4 text-indigo-700 font-semibold' to={'/'}>deatil</Link>
+                    
+                    {
+                        user
+                        ?
+                        <Link className='ml-4 text-indigo-700 font-semibold' to={'/additem'}>AddProduct</Link>
+                        : ''
+                    }
                    
                     {user?
                     <button className='ml-4 text-indigo-700 font-semibold' onClick={hendelLogout}>Log Out</button>
