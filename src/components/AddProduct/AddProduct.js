@@ -6,13 +6,16 @@ const AddProduct = () => {
 
 
     return (
-        <div>
+        <div className=''>
             <h2 className='mt-3 text-center text-5xl text-indigo-600'>Pleash Add a new item ?</h2>
-            <form onSubmit={handleSubmit(onSubmit)}>
-                <input {...register("firstName", { required: true, maxLength: 20 })} />
-                <input {...register("lastName", { pattern: /^[A-Za-z]+$/i })} />
-                <input type="number" {...register("age", { min: 18, max: 99 })} />
-                <input type="submit" />
+            <form className='w-80 mt-8 mx-auto flex flex-col' onSubmit={handleSubmit(onSubmit)}>
+                <p className='text-lime-700'>name</p>
+                <input className='bg-neutral-400 mb-3 py-2 px-4 rounded' placeholder='Name' {...register("Name", { required: true, maxLength: 20 })} />
+                <p className='text-lime-700'>queantity</p>
+                <input className='bg-neutral-400 mb-3 py-2 px-4 rounded' placeholder='Discription' {...register("gueantity",)} />
+                <p className='text-lime-700'>Price</p>
+                <input className='bg-neutral-400 mb-3 py-2 px-4 rounded' placeholder='Price' type="number" {...register("price",)} />
+                <input className='uppercase bg-lime-600 py-2 px-4 font-semibold text-white rounded mt-4' type="submit" />
             </form>
         </div>
     );
