@@ -23,31 +23,20 @@ const ManegProduct = () => {
         }
     }
 
-    return (
-        
+    return ( 
         <div>
-
             {
                 products.map(product => <div key={product._id}>
-
                     <div className='flex justify-around gap-4 border mt-4 p-6 container'>
                         <img className='w-36 ' src={product.img} alt="" />
                         <h5 className='font-semibold text-indigo-600 text-2xl'>{product.name} </h5>
                         
                         <button className='uppercase bg-lime-600 h-10 w-20 font-semibold text-white rounded mt-4'>update</button>
                         <button onClick={()=>hendelDelete(product._id)} className='uppercase bg-red-500 h-10 w-20  font-semibold text-white rounded mt-4'>delete</button>
-                    
-                       
                     </div>
                 </div>)
             }
-            {  
-            //   products.map(product =><div key={product._id}>
-            //    <h2 className='text-center text-2xl'>{product.name}
-            //    <button onClick={()=>hendelDelete(product._id)}>x</button>
-            //    </h2>
-            //   </div>)
-            }
+           
         </div>
     );
 };

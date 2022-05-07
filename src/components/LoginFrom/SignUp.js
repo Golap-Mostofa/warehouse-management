@@ -42,9 +42,9 @@ const SignUp = () => {
 
 
     return (
-        <div className='w-96 mx-auto text-center bg-slate-200 p-12 mt-12 rounded-md'>
+        <div className='w-96 mx-auto text-center bg-slate-200 p-12 mt-12 mb-8 rounded-md'>
             <div className=''>
-                <h2 className='text-4xl text-semibold text-sky-600'>Login</h2>
+                <h2 className='text-4xl text-semibold text-sky-600'>Sign Up</h2>
                 <form onSubmit={createUser}>
                     <div className=" m-3">
                         <label className='block' htmlFor="email">Email</label>
