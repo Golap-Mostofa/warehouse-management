@@ -10,8 +10,8 @@ import SignUp from './components/LoginFrom/SignUp';
 import RequireAuth from './components/LoginFrom/RequireAuth';
 import ProductDetail from './components/ProductDetail/ProductDetail';
 import AddProduct from './components/AddProduct/AddProduct';
-
-
+import ManegProduct from './components/ManegProduct/ManegProduct';
+import SocalLogin from './components/LoginFrom/SocalLogin';
 function App() {
   return (
     <div>
@@ -27,11 +27,15 @@ function App() {
         <Route path='additem' element={<RequireAuth>
           <AddProduct></AddProduct>
         </RequireAuth>}></Route>
+        <Route path='maneg' element={<RequireAuth>
+          <ManegProduct></ManegProduct>
+        </RequireAuth>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
+        {/* <Route path='/socal' element={<SocalLogin></SocalLogin>}></Route> */}
       </Routes>
 
-      {/* <Foter></Foter> */}
+      <Foter></Foter>
     </div>
   );
 }

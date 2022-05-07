@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../Firebase.init';
+import SocalLogin from './SocalLogin';
 const Login = () => {
     const [email,setEmail] = useState('')
     const [password,setPassword] = useState('')
@@ -58,6 +59,7 @@ const Login = () => {
                 <p className='mt-4 text-gray-700'>
                     Create a new account? <Link className='text-orange-600' to="/signup">Sign UP</Link>
                 </p>
+                <SocalLogin></SocalLogin>
             </div>
         </div>
     );

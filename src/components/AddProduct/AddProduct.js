@@ -5,7 +5,7 @@ const AddProduct = () => {
 
     const onSubmit = data => {
         console.log(data)
-        const url = `http://localhost:4000/product`
+        const url = `http://localhost:5000/product`
         fetch(url,{
             method: 'POST',
             headers:{

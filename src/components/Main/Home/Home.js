@@ -12,10 +12,13 @@ const Home = () => {
             
             {
             products.map(product=><Product
+            
             product={product}
             key={product._id}
             ></Product>)
+            
             }
+            
         </div>
     </div>
         

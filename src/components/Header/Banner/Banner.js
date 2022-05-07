@@ -29,7 +29,6 @@ const Banner = () => {
 
             </div>
 
-            {/* servic section */}
 
             <div className=' md:grid grid-cols-3 gap-4 container mx-auto '>
 
