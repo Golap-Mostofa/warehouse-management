@@ -1,20 +1,23 @@
 import React from 'react';
 import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import google from '../../image/google0.png';
 import auth from '../Firebase.init';
 const SocalLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
     const navigate = useNavigate()
+    const location = useLocation()
+    const from = location.state?.from?.pathname || '/';
     let err;
     if (error) {
         err = <div>
             <p className='text-red-500'>try agen </p>
         </div>
     }
-    if (user) {
-        navigate('/')
-    }
+   
+        if(user){
+            navigate(from, {replace: true})
+        }
 
     return (
         <div>

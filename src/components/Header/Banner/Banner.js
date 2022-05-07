@@ -1,5 +1,5 @@
 import React from 'react';
-import banner11 from '../../../image/banner11.jpg'
+import banner12 from '../../../image/bg12.png'
 import banner1 from '../../../image/banner1.jfif'
 import banner from '../../../image/banner.jfif'
 import nanner4 from '../../../image/banner4.png'
@@ -23,7 +23,7 @@ const Banner = () => {
                             Buy Now</button>
                     </div>
                     <div className='mt-3 md-0'>
-                        <img className='w-full sm:w-full rounded-md hover:shadow-md p-1 ' src={banner11} alt="" />
+                        <img className='w-full sm:w-full rounded-md hover:shadow-md p-1 ' src={banner12} alt="" />
                     </div>
                 </div>
 
