@@ -19,6 +19,7 @@ const Navbar = () => {
                 </div>
                 <div className='flex items-center mt-4 justify-around '>
                     <Link className='ml-4 text-red-50 font-semibold' to={'/'}>Home</Link>
+                    <Link className='ml-4 text-red-50 font-semibold' to={'/about'}>about</Link>
                    
                     {user?
                         <Link className='ml-4 text-red-50 font-semibold' to={'/maneg'}>Manege </Link>
@@ -44,3 +45,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+

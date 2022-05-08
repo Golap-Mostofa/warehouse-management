@@ -1,11 +1,11 @@
-# Getting Started with Create React App
+# BE THE SCIL SHORCEOF INTERSEPTOR
 
 BE THE SCIL SHORCE
 OF INTERSEPTOR [Grab your laptops](https://spiffy-piroshki-17be28.netlify.app/).
 
-## Available Scripts
+## ****server side repogitory****
 
-In the project directory, you can run:
+In the cliend project [cliend side repo](https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-Golap-Mostofa)
 
 ### `npm start`
 

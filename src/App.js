@@ -12,6 +12,7 @@ import AddProduct from './components/AddProduct/AddProduct';
 import ManegProduct from './components/ManegProduct/ManegProduct';
 import SocalLogin from './components/LoginFrom/SocalLogin';
 import NotFound from './components/NotFound/NotFound';
+import About from './components/About/About';
 function App() {
   return (
     <div>
@@ -27,6 +28,7 @@ function App() {
         <Route path='additem' element={<RequireAuth>
           <AddProduct></AddProduct>
         </RequireAuth>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
         <Route path='maneg' element={<RequireAuth>
           <ManegProduct></ManegProduct>
         </RequireAuth>}></Route>
