@@ -16,7 +16,7 @@ const Banner = () => {
                             <br />
                            
                             <span className='text-yellow-400 '>of interseptor</span></h2>
-                        <p className='text-gray-900 font-serif '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, beatae!</p>
+                        <p className='text-gray-900 font-serif '>Grab your dream laptops at an affordable price. Buy HP, Acer, Dell, Lenovo,laptops at your fingertips.</p>
                         <br />
                         <button className='uppercase bg-lime-600 py-4 px-7 font-semibold text-white rounded mt-4'>
 
@@ -37,8 +37,8 @@ const Banner = () => {
                         <img className='rounded-md' src={banner1} alt="" />
                     </div>
                     <div className='p-2'>
-                        <h5 className='text-xl text-fuchsia-800 font-serif'>Lorem ipsum .</h5>
-                        <p className='text-sm font-medium text-lime-900'>dolor sit amet consectetur Lorem, ipsum dolor. </p>
+                        <h5 className='text-xl text-fuchsia-800 font-serif'>Grab your laptops</h5>
+                        <p className='text-sm font-medium text-lime-900'>Buy HP, Acer, Dell, Lenovo,laptops at your fingertips. </p>
                     </div>
                 </div>
                 <div className=' flex items-center justify-around shadow-md bg-slate-100'>
@@ -46,8 +46,8 @@ const Banner = () => {
                         <img className='rounded-md' src={banner} alt="" />
                     </div>
                     <div className=''>
-                        <h5 className='text-xl text-fuchsia-800 font-serif'>Lorem ipsum .</h5>
-                        <p className='text-sm font-medium text-lime-900'>dolor sit amet consectetur Lorem, ipsum dolor. r</p>
+                        <h5 className='text-xl text-fuchsia-800 font-serif'>Grab your dream laptops</h5>
+                        <p className='text-sm font-medium text-lime-900'>Buy HP, Acer, Dell, Lenovo,laptops at your fingertips.</p>
                     </div>
                 </div>
                 <div className='w-full flex items-center justify-around p-3 shadow-md bg-slate-100'>
@@ -55,7 +55,7 @@ const Banner = () => {
                         <img className='w-64 rounded-md' src={nanner4} alt="" />
                     </div>
                     <div className='p-2'>
-                        <h5 className='text-xl text-fuchsia-800 font-serif'>Lorem ipsum .</h5>
+                        <h5 className='text-xl text-fuchsia-800 font-serif'>Grab your dream laptops</h5>
                         <p className='text-sm font-medium text-lime-900'>  dolor sit amet consectetur Lorem, ipsum dolor. </p>
                         
                     </div>

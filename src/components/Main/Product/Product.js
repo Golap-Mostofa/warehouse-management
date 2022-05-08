@@ -15,12 +15,12 @@ const Product = ({ product }) => {
                 <div className='p-3'>
                     <p className='text-center font-semibold text-green-700 text-2xl'>{name}</p>
                     <p>{discription}</p>
-                    <p className='text-center text-indigo-700'>price:{price}</p>
+                    <p className='text-center text-green-600'>price:{price}</p>
                 </div>
 
                 <div className='text-center mt-4 pb-3'>
                     <button onClick={() => navigateToDetail(_id)} className='uppercase bg-lime-600 py-3 px-5 font-semibold text-white rounded'>
-                        Buy Now</button>
+                        add Now</button>
                 </div>
             </div>
         </div>

@@ -16,18 +16,24 @@ const ProductDetail = () => {
 
 
     return (
-        <div className=' w-96 mx-auto mt-8 border p-3'>
-            <div className='text-center '>
-                <img className='w-100' src={product.img} alt="" />
-                <h2 className=' text-4xl text-fuchsia-900 mt-8'>{product.name}</h2>
-                <p className='text-2xl text- '>quantity:{product.guantity}</p>
-                <button className='uppercase bg-lime-600 py-2 px-4 font-semibold text-white rounded mt-4'>
+
+        <div>
+            <div className=' w-96 mx-auto mb-12 mt-8 border p-3'>
+                <div className='text-center '>
+                    <img className='w-100' src={product.img} alt="" />
+                    <h2 className=' text-4xl text-fuchsia-900 mt-8'>{product.name}</h2>
+                    <p className='text-2xl text- '>quantity:{product.guantity}</p>
+                    <button className='uppercase bg-lime-600 py-2 px-4 font-semibold text-white rounded mt-4'>
                         Update quantity
                     </button>
+                </div>
+               
             </div>
-
-           
-
+            <h2 className='text-center text-2xl text-green-600'>add product quentity</h2>
+            <div className='text-center mt-6 shadow-sm '>
+                <input className='bg-neutral-400 mb-3 py-2 px-4 rounded' type="text" placeholder='add ' />
+                <button className='bg-teal-500 py-2 px-4 rounded'>add</button>
+            </div>
         </div>
     );
 };

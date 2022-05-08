@@ -3,7 +3,6 @@ import './App.css';
 import Navbar from './components/Header/Navbar/Navbar';
 import Banner from './components/Header/Banner/Banner';
 import Foter from './components/Foter/Foter';
-import Home from './components/Main/Home/Home';
 import { Route, Routes } from 'react-router-dom';
 import Login from './components/LoginFrom/Login';
 import SignUp from './components/LoginFrom/SignUp';
@@ -32,7 +31,7 @@ function App() {
         </RequireAuth>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
-        {/* <Route path='/socal' element={<SocalLogin></SocalLogin>}></Route> */}
+      
       </Routes>
 
       <Foter></Foter>

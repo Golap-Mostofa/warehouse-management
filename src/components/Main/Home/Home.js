@@ -7,7 +7,7 @@ const Home = () => {
     const [products, setProducts] = useProducts()
     return (
     <div className='mt-16'>
-        <h2 className='text-4xl text-center text-indigo-600'>Our Products</h2>
+        <h2 className='text-6xl text-center font-semibold mb-4  text-indigo-600'>Our Products</h2>
         <div className='md:grid grid-cols-3 container mx-auto gap-12 '>
             
             {

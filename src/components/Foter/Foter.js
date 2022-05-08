@@ -14,23 +14,25 @@ const Foter = () => {
                     <p>BsFacebook</p>
                 </div>
                 <div>
-                <BackspaceIcon className="h-10 w-10 text-li-50"></BackspaceIcon >
+
                     <h4 className='text-2xl text-orange-300'>stock is incredibly important</h4>
-                    
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, expedita!</p>
+                    <ShoppingCartIcon className="h-5 w-5 text-orange-500"></ShoppingCartIcon>
+                    <p>SHORCE
+                        OF INTERSEPTOR</p>
                     <a>she all</a>
                 </div>
                 <div>
-                <BeakerIcon className="h-5 w-5 text-blue-50"/>
-                    <h4>Lorem, ipsum dolor.</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, expedita!</p>
+               
+                    <h4 className='text-2xl text-orange-500'>Lorem, ipsum dolor.</h4>
+                    <ShoppingCartIcon className="h-5 w-5 text-orange-500"></ShoppingCartIcon>
+                    <p>Lorem ipsum, dolor expedita!</p>
                     <a>she all</a>
 
                 </div>
-                
-               
-                
-                
+
+
+
+
             </div>
         </footer>
     );
