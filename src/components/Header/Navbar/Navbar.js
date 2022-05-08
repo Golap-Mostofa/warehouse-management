@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className='h-16 bg-slate-400 '>
             <div className='flex items-center justify-around '>
                 <div className='mt-4'>
-                <h2>Navbar</h2> 
+                <h2 className='uppercase text-2xl text-green-100'>laptop analiger</h2> 
                 </div>
                 <div className='flex items-center mt-4 justify-around '>
                     <Link className='ml-4 text-red-50 font-semibold' to={'/'}>Home</Link>

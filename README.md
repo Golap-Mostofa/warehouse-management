@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+BE THE SCIL SHORCE
+OF INTERSEPTOR [Grab your laptops](https://spiffy-piroshki-17be28.netlify.app/).
 
 ## Available Scripts
 

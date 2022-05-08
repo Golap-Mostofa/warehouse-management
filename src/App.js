@@ -11,6 +11,7 @@ import ProductDetail from './components/ProductDetail/ProductDetail';
 import AddProduct from './components/AddProduct/AddProduct';
 import ManegProduct from './components/ManegProduct/ManegProduct';
 import SocalLogin from './components/LoginFrom/SocalLogin';
+import NotFound from './components/NotFound/NotFound';
 function App() {
   return (
     <div>
@@ -31,7 +32,7 @@ function App() {
         </RequireAuth>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
-      
+          <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
 
       <Foter></Foter>
